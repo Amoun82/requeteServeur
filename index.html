@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    
+    <div id="conteneur">
+        <div id="afficher"></div>
+        <br>
+    
+        <input type="button" value="requete serveur" onclick="requete()">
+    
+
+        <div id="aff"></div>
+
+        <br>
+        <br>
+
+        <label for="">test regex 1 :</label>
+        <input type="text" placeholder="uniquement des lettres" name="" id="monText">
+
+        <br>
+        <br>
+
+        <label for="">test regex 2 :</label>
+        <input type="text" placeholder="code 0..9" name="" id="mesChiffres">
+
+        <br>
+        <br>
+
+        <label for="">test regex 3 :</label>
+        <input type="text" placeholder="le code est 0..9" name="" id="monTextSuivant">
+
+        <br>
+        <br>
+
+        <label for="">test regex 4 :</label>
+        <input type="text" placeholder="le mot de passe est a..z" name="" id="encoreMonTextSuivant">
+
+        <div id="affichage">
+
+        </div>
+    </div>
+
+    <form id="formAVerifier">
+        <p>
+          <label>Code : <input type="text" name="code" id="code" /></label><br />
+          <div class="result" id="code-validation"></div>
+        </p>
+        <p>
+          <label>Email : <input type="text" name="email" /></label>
+        </p>
+        <p>
+           <input type="submit" value="Vérifier" id="submit-btn" />
+        </p>
+    </form>
+
+    <form action="">
+
+        <button>Hello World</button>
+
+        <div id="leResultat"></div>
+
+        <button id="boutonActiver">Activer</button>
+    
+    </form>  
+
+    <form action="">
+        <p>
+            <label for="">Mon Code : <input type="text" name="" id="codeAtester"></label>
+            <div id="afficherReponse"></div>
+        </p>
+        <p>
+            <input type="button" value="Valider" onclick="appel()" id="boutonSubmit">
+        </p>
+
+    </form>
+
+    <form id="form">
+        <label>Saisissez le champ : <input type="text" id="value" /></label><br />
+        <label>deuxieme partie a envoyer : <input type="text" id="value2"></label><br>
+        <input type="submit" value="Envoyer" />
+      </form>
+      <div id="result"></div>
+
+    <script type="text/javascript" src="requete.js"></script>
+</body>
+</html>

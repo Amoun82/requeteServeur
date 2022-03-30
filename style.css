@@ -1,0 +1,36 @@
+.bon
+{
+    background: green;
+    max-width: max-content;
+    padding: 0 2px ;
+}
+
+.mauvais
+{
+    background:red;
+    max-width: max-content;
+    padding : 0 2px ;
+}
+
+
+form,#conteneur
+{
+    margin: auto;
+    max-width: 300px;
+    margin-top: 40px;
+}
+  
+#result
+{
+    text-align: center;
+}
+
+#boutonBas
+{
+    background-color: blue;
+}
+
+#boutonBas1
+{
+    background-color: gold;
+}
